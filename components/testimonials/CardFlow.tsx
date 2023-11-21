@@ -19,7 +19,7 @@ export const CardFlow : React.FC < Props > = ({data}) => {
         // console.log(i)const handleClick = () => {
             console.log(i)
         pageview("asdf")
-        event({action:"click", category:"category",label:"label",value:1})
+        event({action:"click", category:"category",label:"label",value:active})
         if(active+i>3)return
         if(active+i<0)return
         setActive(active+i);
