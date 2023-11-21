@@ -3,6 +3,7 @@ from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
 import {Providers} from "./providers";
+import {GA_TRACKING_ID} from '@/components/lib/gtag'
 
 const inter = Inter({subsets: ['latin']})
 
@@ -16,9 +17,18 @@ export default function RootLayout({children} : {
 }) {
     return (
         <html lang="en">
-            <body className={inter.className + " " + "overflow-x-hidden"} >
+            <head>
+                <script
+                    async
+                    src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}/>
+                <script
+                    dangerouslySetInnerHTML={{
+                    __html: ` window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_TRACKING_ID}', { page_path: window.location.pathname, }); `
+                }}/>
+            </head>
+            <body className={inter.className + " overflow-x-hidden"}>
                 <Providers>
-                  {children}
+                    {children}
                 </Providers>
             </body>
         </html>
