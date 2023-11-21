@@ -5,8 +5,8 @@ import {Hero1} from '@/components/hero'
 import Footer from '@/components/footer'
 import Faq from '@/components/faq'
 import Testimonial from '@/components/testimonials'
-import Section1 from '@/components/section/index1'
-import Section2 from '@/components/section/index2'
+import {Section1} from '@/components/section'
+import {Section2} from '@/components/section'
 import Feature from '@/components/feature'
 
 

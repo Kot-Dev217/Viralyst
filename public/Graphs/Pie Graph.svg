@@ -1,0 +1,26 @@
+<svg width="174" height="175" viewBox="0 0 174 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Pie Graph" clip-path="url(#clip0_20_3)">
+<path id="Percentage" d="M161.328 87.5295C161.328 128.644 128.079 161.927 87.1236 161.927C46.1679 161.927 12.9193 128.644 12.9193 87.5295C12.9193 46.4147 46.1679 13.132 87.1236 13.132C128.079 13.132 161.328 46.4147 161.328 87.5295Z" stroke="#0A2640" stroke-width="24.971"/>
+<g id="Percentage_2">
+<mask id="mask0_20_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-52" y="-31" width="137" height="226">
+<path id="Vector 1" d="M84.3569 79.5187L50.5417 -30.7797L-51.8259 99.2368L2.58571 194.13L84.3569 79.5187Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_20_3)">
+<path id="Ellipse 2" d="M161.328 87.5293C161.328 128.644 128.079 161.927 87.1238 161.927C46.1681 161.927 12.9196 128.644 12.9196 87.5293C12.9196 46.4144 46.1681 13.1317 87.1238 13.1317C128.079 13.1317 161.328 46.4144 161.328 87.5293Z" stroke="#0DBBFC" stroke-width="24.971"/>
+</g>
+</g>
+<g id="Percentage_3">
+<mask id="mask1_20_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="39" y="-40" width="169" height="157">
+<path id="Vector 1_2" d="M95.8033 89.1839L207.667 116.575L148.552 -38.1029L39.3613 -39.8807L95.8033 89.1839Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1_20_3)">
+<path id="Ellipse 2_2" d="M49.0875 151.371C13.8629 130.33 2.30258 84.6741 23.2714 49.3955C44.2402 14.117 89.7949 2.57929 125.019 23.6208C160.244 44.6623 171.804 90.3179 150.836 125.596C129.867 160.875 84.3122 172.413 49.0875 151.371Z" stroke="#69E6A6" stroke-width="24.971"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_20_3">
+<rect width="173.469" height="173.469" fill="white" transform="translate(0.268066 0.790039)"/>
+</clipPath>
+</defs>
+</svg>
