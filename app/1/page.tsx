@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 
 import {Navbar1} from '@/components/navbar'
@@ -12,12 +13,14 @@ import { pageview, event } from '@/components/lib/gtag'
 
 
 export default function Home() {
-  const handleClick = () => {
+  setInterval(() => {
+    
     pageview("asdf")
     event({action:"click", category:"category",label:"label",value:1})
+  },5000)
   }
   return (
-    <div className='bg-black' onClick={handleClick}>
+    <div className='bg-black'>
       <Navbar1/>
       <Hero1/>
       <Section1/>
