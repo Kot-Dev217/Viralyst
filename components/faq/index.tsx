@@ -30,7 +30,7 @@ export default function Faq() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
        return (
-        <div className="mx-auto text-white w-[1180px] h-[824px]">
+        <div className="mx-auto text-white w-[1180px] h-fit mb-[50px]">
             <div className="flex flex-col">
                 <div className="h-[200px] text-5xl flex justify-center items-center">Frequently asked questions</div>
                 <div className=" pt-4 pl-4 mx-36 flex flex-col"> 
