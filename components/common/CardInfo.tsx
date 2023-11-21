@@ -2,15 +2,17 @@ import React from 'react';
 import {Card, CardHeader, CardBody, CardFooter, Avatar} from "@nextui-org/react";
 
 interface carditem{
-  query:string;answer:string;
+  name: string,
+  contact:string,
+  description:string,
+  avatar: string
 }
 interface Props {
     data:carditem[];
 }
 
-export const Card : React.FC < Props > = ({data}) => {
-    return (
-            {data.map((item)=>(              
+export const CardInfo : React.FC < Props > = ({data}) => {
+    return (            
               <Card className="max-w-[340px]">
                 <CardBody className="px-3 py-0 text-small text-default-400">
                 <p>
@@ -45,6 +47,5 @@ export const Card : React.FC < Props > = ({data}) => {
                 </div>
               </CardFooter>
             </Card>
-            ))}       
     )
 }

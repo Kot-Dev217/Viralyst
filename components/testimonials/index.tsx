@@ -1,32 +1,41 @@
-import {Card} from "../common/Card"
-type faqtype = {
-    query: string;
-    answer: string;
+
+import {CardFlow} from "./CardFlow"
+type datatype = {
+    name: string,
+    contact:string,
+    description:string,
+    avatar: string
   }
   
-const faqdata: faqtype[] = [
-{
-    query: "What is Viralyst?",
-    answer: "Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand  "
-},
-{
-    query: "How does viralyst work?",
-    answer: "Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand  "
-},
-{
-    query: "Is viralyst available worldwide?",
-    answer: "Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand  "
-},
-{
-    query: "How do i get started?",
-    answer: "Viralyst is an innovative committee initiated by an experienced expertise to consult a means of earning through advertisement and monetizing companies brand  "
-}
+const data: datatype[] = [
+        {
+            name: "Albus Dumbledore",
+            contact:"Manager @ Howarts",
+            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            avatar: ""
+        },
+        {
+            name: "Albus Dumbledore",
+            contact:"Manager @ Howarts",
+            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            avatar: ""
+        },
+        {
+            name: "Albus Dumbledore",
+            contact:"Manager @ Howarts",
+            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            avatar: ""
+        },
+        {
+            name: "Albus Dumbledore",
+            contact:"Manager @ Howarts",
+            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            avatar: ""
+        }
 ];
 
-
-export default function Testimonial() {
-    
+export default function Testimonial() {    
     return (
-        <div>Testimonial</div>
+        <div ><CardFlow data={data}/></div>
     )
 }
