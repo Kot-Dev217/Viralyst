@@ -27,7 +27,7 @@ export const CardFlow : React.FC < Props > = ({data}) => {
                 </div>
                 <div className="flex mt-[70px]">
                     <div onClick={handleClick(-1)}
-                        className="bg-white mr-7 hover:bg-gray-200 w-[72px] h-[72px] rounded-full flex justify-center items-center text-white">
+                        className="bg-white cursor-pointer mr-7 hover:bg-gray-200 w-[72px] h-[72px] rounded-full flex justify-center items-center text-white">
                         <svg
                             width="36"
                             height="39"
@@ -50,7 +50,7 @@ export const CardFlow : React.FC < Props > = ({data}) => {
 
                     </div>
                     <div  onClick={handleClick(1)}
-                        className="bg-white hover:bg-gray-200 w-[72px] h-[72px] rounded-full flex justify-center items-center text-white">
+                        className="bg-white cursor-pointer hover:bg-gray-200 w-[72px] h-[72px] rounded-full flex justify-center items-center text-white">
                         <svg
                             width="36"
                             height="39"
