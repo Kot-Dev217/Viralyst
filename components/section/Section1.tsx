@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Section1 = () => {
     return (
-        <div className="w-[1137px] h-[610px] relative mx-auto">
+        <div className="w-[1137px] h-[610px] relative mx-auto mt-[200px]">
             <div className="w-[494px] h-[610px] left-0 top-0 absolute">
                 <div className="w-[494px] h-[506px] left-0 top-0 absolute rounded-3xl"></div>
                 <Image width={494} height={506} src="/assets/img/1.png" alt="1"/>
