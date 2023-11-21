@@ -5,9 +5,8 @@ interface Props {
 
 export const Btn2 : React.FC < Props > = ({name}) => {
     return (
-        <div
-            className="p-4 bg-[#65e4a3] text-lg font-bold px-4 py-1 rounded-full text-black w-fit text-sm">
-            {name}
+        <div className="cursor-pointer hover:bg-orange-800 px-8 py-4 bg-orange-700 rounded-full justify-center items-center gap-2.5 inline-flex">
+            <div className="text-center text-white text-lg font-bold font-['Inter'] leading-[25.20px]">{name}</div>
         </div>
     )
 }
