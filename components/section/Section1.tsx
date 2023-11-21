@@ -49,7 +49,10 @@ export const Section1 = () => {
                                 className="w-[387px] h-[37px] left-[63px] top-0 absolute text-white text-xl font-normal font-['Inter'] leading-loose">We connect our customers with the best.</div>
                             <div className="w-9 h-9 left-0 top-[1px] absolute">
                                 <div className="w-9 h-9 left-0 top-0 absolute bg-orange-700 rounded-full"></div>
-                                <div className="w-6 h-6 left-[6px] top-[6px] absolute"></div>
+                                <div className="w-6 h-6 left-[6px] top-[6px] absolute">
+                        <Image width={24} height={24} src='/assets/icon/check.svg' alt='6' />
+
+                                </div>
                             </div>
                         </div>
                         <div className="w-[450px] h-[37px] relative">
@@ -57,7 +60,10 @@ export const Section1 = () => {
                                 className="w-[387px] h-[37px] left-[63px] top-0 absolute text-white text-xl font-normal font-['Inter'] leading-loose">Advisor success customer launch party.</div>
                             <div className="w-9 h-9 left-0 top-[1px] absolute">
                                 <div className="w-9 h-9 left-0 top-0 absolute bg-orange-700 rounded-full"></div>
-                                <div className="w-6 h-6 left-[6px] top-[6px] absolute"></div>
+                                <div className="w-6 h-6 left-[6px] top-[6px] absolute">
+                        <Image width={24} height={24} src='/assets/icon/check.svg' alt='6' />
+
+                                </div>
                             </div>
                         </div>
                         <div className="w-[450px] h-[37px] relative">
@@ -65,7 +71,10 @@ export const Section1 = () => {
                                 className="w-[387px] h-[37px] left-[63px] top-0 absolute text-white text-xl font-normal font-['Inter'] leading-loose">Business-to-consumer long tail.</div>
                             <div className="w-9 h-9 left-0 top-[1px] absolute">
                                 <div className="w-9 h-9 left-0 top-0 absolute bg-orange-700 rounded-full"></div>
-                                <div className="w-6 h-6 left-[6px] top-[6px] absolute"></div>
+                                <div className="w-6 h-6 left-[6px] top-[6px] absolute">
+                        <Image width={24} height={24} src='/assets/icon/check.svg' alt='6' />
+
+                                </div>
                             </div>
                         </div>
                     </div>

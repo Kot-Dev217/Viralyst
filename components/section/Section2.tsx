@@ -47,7 +47,7 @@ export const Section2 = () => {
                 <div className="w-[500px] h-[252px] left-0 top-[228px] absolute">
                     <div className="w-[500px] h-[68px] left-0 top-0 absolute">
                         <div
-                            className="w-[500px] h-[68px] left-0 top-0 absolute bg-orange-700 rounded shadow"></div>
+                            className="w-[500px] h-[68px] left-0 top-0 absolute bg-[#D05404] rounded shadow"></div>
                         <div className="w-[427px] h-9 left-[20px] top-[19px] absolute">
                             <div className="w-7 h-7 left-0 top-[4px] absolute">
                                 <div className="w-6 h-6 left-[2px] top-[2px] absolute">
