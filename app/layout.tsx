@@ -16,6 +16,16 @@ export default function RootLayout({children} : {
 }) {
     return (
         <html lang="en">
+            <head>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-8728V4EJZE"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-8728V4EJZE');
+                </script>
+            </head>
             <body className={inter.className + " " + "overflow-x-hidden"} >
                 <Providers>
                   {children}

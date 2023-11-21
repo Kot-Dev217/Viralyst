@@ -14,7 +14,7 @@ interface Props {
 export const CardFlow : React.FC < Props > = ({data}) => {
     const [active, setActive] = useState(0);
     const handleClick = (i: number) => () => {
-        console.log(i)
+        // console.log(i)
         if(active+i>3)return
         if(active+i<0)return
         setActive(active+i);
