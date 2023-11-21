@@ -11,43 +11,43 @@ const data: datatype[] = [
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            description: "1Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor",
+            description: "2Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Release facebook responsive web design business model canvas seed money monetization.",
+            description: "3Release facebook responsive web design business model canvas seed money monetization.",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            description: "4Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            description: "5Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            description: "6Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
         },
         {
             name: "Albus Dumbledore",
             contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
+            description: "7Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
         }
 ];
