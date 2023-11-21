@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { pageview } from '@/components/lib/gtag'
+import { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps ) {
   const router = useRouter()
 
   useEffect(() => {
