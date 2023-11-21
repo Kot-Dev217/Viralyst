@@ -16,7 +16,7 @@ export const CardFlow : React.FC < Props > =  ({data})=> {
             <Card className="max-w-[340px]  p-8" key={index}>
                 <CardBody className="px-3 py-0 text-xl text-gray-900">
                 <p>
-                  "{item.description}"
+                  {item.description}
                 </p>                
               </CardBody>
               <CardHeader className="justify-between mt-8">
