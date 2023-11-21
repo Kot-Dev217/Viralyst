@@ -48,9 +48,12 @@ export const Section2 = () => {
                     <div className="w-[500px] h-[68px] left-0 top-0 absolute">
                         <div
                             className="w-[500px] h-[68px] left-0 top-0 absolute bg-orange-700 rounded shadow"></div>
-                        <div className="w-[427px] h-9 left-[20px] top-[16px] absolute">
+                        <div className="w-[427px] h-9 left-[20px] top-[19px] absolute">
                             <div className="w-7 h-7 left-0 top-[4px] absolute">
-                                <div className="w-6 h-6 left-[2px] top-[2px] absolute"></div>
+                                <div className="w-6 h-6 left-[2px] top-[2px] absolute">
+
+                                </div>
+                                <Image width={24} height={24} src='/assets/icon/feather.svg' alt='6' />
                             </div>
                             <div
                                 className="w-[387px] h-9 left-[40px] top-0 absolute text-white text-base font-normal font-['Inter'] leading-7">We connect our customers with the best.</div>
@@ -59,9 +62,12 @@ export const Section2 = () => {
                     <div className="w-[500px] h-[68px] left-0 top-[92px] absolute">
                         <div
                             className="w-[500px] h-[68px] left-0 top-0 absolute bg-white rounded shadow"></div>
-                        <div className="w-[427px] h-9 left-[20px] top-[16px] absolute">
+                        <div className="w-[427px] h-9 left-[20px] top-[19px] absolute">
                             <div className="w-7 h-7 left-0 top-[4px] absolute">
-                                <div className="w-6 h-6 left-[1.78px] top-[1.65px] absolute"></div>
+                                <div className="w-6 h-6 left-[1.78px] top-[1.65px] absolute">
+
+                                </div>
+                                <Image width={24} height={24} src='/assets/icon/eye.svg' alt='6' />
                             </div>
                             <div
                                 className="w-[387px] h-9 left-[40px] top-0 absolute text-black text-base font-normal font-['Inter'] leading-7">Advisor success customer launch party.</div>
@@ -70,9 +76,12 @@ export const Section2 = () => {
                     <div className="w-[500px] h-[68px] left-0 top-[184px] absolute">
                         <div
                             className="w-[500px] h-[68px] left-0 top-0 absolute bg-white rounded shadow"></div>
-                        <div className="w-6 h-6 left-[20px] top-[22px] absolute"></div>
+                        <div className="w-6 h-6 left-[20px] top-[22px] absolute">
+                        <Image width={24} height={24} src='/assets/icon/sun.svg' alt='6' />
+
+                        </div>
                         <div
-                            className="w-[387px] h-9 left-[56px] top-[16px] absolute text-black text-base font-normal font-['Inter'] leading-7">Business-to-consumer long tail.</div>
+                            className="w-[387px] h-9 left-[56px] top-[19px] absolute text-black text-base font-normal font-['Inter'] leading-7">Business-to-consumer long tail.</div>
                     </div>
                 </div>
             </div>

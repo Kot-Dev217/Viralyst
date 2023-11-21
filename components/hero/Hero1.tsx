@@ -5,7 +5,7 @@ import {Arrow} from "./Arrow";
 import { FloatCard } from "./FloatCards";
 export function Hero1() {
     return (
-        <div className="w-fit max-w-[1280px] h-fit mx-auto relative">
+        <div className="w-fit max-w-[1280px] h-fit mx-auto relative overflow-hidden">
             <div className="w-full h-fit justify-start items-start gap-20 inline-flex mb-[100px]">
                 <div className="pt-[100px] mx-auto w-fit">
                     <div className="w-[700px] text-center">
