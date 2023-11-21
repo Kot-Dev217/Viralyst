@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps ) {
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
+      console.log(url)
       pageview(url)
     }
 
