@@ -6,7 +6,10 @@ import { FloatCard } from "./FloatCards";
 export function Hero1() {
     return (
         <div className="w-fit max-w-[1280px] h-fit mx-auto relative overflow-hidden">
-            <div className="w-full h-fit justify-start items-start gap-20 inline-flex mb-[100px]">
+        <div className=" absolute top-0 hidden xl:block w-full bg-center object-cover">
+            <HeroBG/>
+        </div>
+            <div className="w-full bg-none h-fit justify-start items-start gap-20 inline-flex mb-[100px]">
                 <div className="pt-[100px] mx-auto w-fit">
                     <div className="w-[700px] text-center">
                         <span
@@ -40,9 +43,6 @@ export function Hero1() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="absolute top-0 hidden xl:block w-full bg-center object-cover">
-                <HeroBG/>
             </div>
             <div className=" w-full xl:block hidden">
                 <FloatCard/>
