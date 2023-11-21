@@ -25,12 +25,6 @@ const data: datatype[] = [
             contact:"Manager @ Howarts",
             description: "Buyer buzz partner network disruptive non-disclosure agreement business",
             avatar: ""
-        },
-        {
-            name: "Albus Dumbledore",
-            contact:"Manager @ Howarts",
-            description: "Buyer buzz partner network disruptive non-disclosure agreement business",
-            avatar: ""
         }
 ];
 
