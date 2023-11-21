@@ -1,6 +1,8 @@
 "use client"
 import {Card, CardHeader, CardBody, CardFooter, Avatar} from "@nextui-org/react";
 import {useState} from 'react'
+import { pageview, event } from '@/components/lib/gtag'
+
 interface carditem {
     name : string,
     contact : string,
@@ -14,7 +16,10 @@ interface Props {
 export const CardFlow : React.FC < Props > = ({data}) => {
     const [active, setActive] = useState(0);
     const handleClick = (i: number) => () => {
-        // console.log(i)
+        // console.log(i)const handleClick = () => {
+            console.log(i)
+        pageview("asdf")
+        event({action:"click", category:"category",label:"label",value:1})
         if(active+i>3)return
         if(active+i<0)return
         setActive(active+i);

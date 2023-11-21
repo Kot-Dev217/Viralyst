@@ -9,18 +9,12 @@ import Testimonial from '@/components/testimonials'
 import {Section1} from '@/components/section'
 import {Section2} from '@/components/section'
 import Feature from '@/components/feature'
-import { pageview, event } from '@/components/lib/gtag'
 
 
 export default function Home() {
-  setInterval(() => {
-    
-    pageview("asdf")
-    event({action:"click", category:"category",label:"label",value:1})
-  },5000)
-  }
+  
   return (
-    <div className='bg-black'>
+    <div className='bg-black' >
       <Navbar1/>
       <Hero1/>
       <Section1/>
