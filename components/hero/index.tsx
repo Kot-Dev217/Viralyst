@@ -1,6 +1,2 @@
-export default function Hero() {
-    return (
-        <div>heor</div>
-    )
-  }
+export * from './Hero1'
   

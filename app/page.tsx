@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import {Navbar1} from '@/components/navbar'
-import Hero from '@/components/hero'
+import {Hero1} from '@/components/hero'
 import Footer from '@/components/footer'
 import Faq from '@/components/faq'
 import Testimonial from '@/components/testimonials'
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className='bg-black'>
       <Navbar1/>
-      <Hero/>
+      <Hero1/>
       <Section1/>
       <Section2/>
       <Feature/>
